@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRMS Suite">
+  
+  <listeners>
+		<listener class-name="com.hrms.testbase.Listener" /> <!-- location of Listener -->
+	</listeners>
+  
+  <test name="Add Emp Test">
+   
+    <classes>
+      <class name="com.hrms.testcases.AddEmpVerification"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
